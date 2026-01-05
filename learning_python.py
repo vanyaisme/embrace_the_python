@@ -69,3 +69,12 @@ isinstance(height, float) # True
 test_str = 'Hi there!'
 print('Hi' in test_str) # True
 print('hello' in test_str) # False # 'in' operator checks for substring presence in a string
+
+my_str = "If Python was an AI, bubble would never have existed."
+print(len(my_str)) # Using len() to get the length of the string
+my_str = my_str.upper() # Converting the string to uppercase
+print(my_str[3:9]) # Slicing the string from index 3 to 9
+print(my_str.replace('PYTHON', 'JavaScript')) # Replacing a substring in the string
+print(my_str.split(',')) # Splitting the string into a list based on a delimiter
+
+

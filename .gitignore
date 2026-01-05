@@ -1,0 +1,58 @@
+# Python virtual environments
+.env/
+venv/
+.venv/
+env/
+ENV/
+*.virtualenv
+
+# Environment files
+.env.example
+*.env
+.env.local
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
