@@ -1,12 +1,12 @@
-# 🐍 FreeCodeCamp Python Learning Journey
+# FreeCodeCamp Python Learning Journey
 
 A comprehensive repository documenting my journey learning Python through FreeCodeCamp and various programming exercises.
 
-## 📚 About This Repository
+## About This Repository
 
 This repository serves as my personal learning log and practice space for Python programming. It's organized to track progress, practice concepts, and build a portfolio of small projects as I advance through Python fundamentals to more advanced topics.
 
-## 🎯 Learning Goals
+## Learning Goals
 
 - Master Python fundamentals (variables, data types, control flow)
 - Understand object-oriented programming concepts
@@ -15,7 +15,7 @@ This repository serves as my personal learning log and practice space for Python
 - Create clean, well-documented code
 - Follow Python best practices (PEP 8)
 
-## 📋 Topics Covered
+## Topics Covered
 
 ### Basics
 - [x] Variables and data types
@@ -41,7 +41,7 @@ This repository serves as my personal learning log and practice space for Python
 - [ ] Testing with pytest
 - [ ] Virtual environments and package management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FreeCodeCamp/
@@ -65,7 +65,7 @@ FreeCodeCamp/
 └── requirements.txt                 # Python package dependencies
 ```
 
-## 🚀 How to Run the Code
+## How to Run the Code
 
 ### Prerequisites
 - Python 3.x installed on your system
@@ -106,42 +106,42 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 📖 Learning Resources
+## Learning Resources
 
 See [RESOURCES.md](RESOURCES.md) for a curated list of learning materials, tutorials, and helpful links.
 
-## 💡 Project Ideas
+## Project Ideas
 
 Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ideas to practice your Python skills.
 
-## 📈 Current Progress
+## Current Progress
 
 **Last Updated:** January 2026
 
-- ✅ Completed: Python basics (variables, types, strings, functions)
-- 🔄 In Progress: Practice exercises
-- 📝 Next Up: Control flow and loops
+- Completed: Python basics (variables, types, strings, functions)
+- In Progress: Practice exercises
+- Next Up: Control flow and loops
 
-## 🎓 Certifications & Courses
+## Certifications & Courses
 
 - [ ] FreeCodeCamp - Scientific Computing with Python
 - [ ] Additional courses (to be added)
 
-## 🤝 Connect & Contribute
+## Connect & Contribute
 
 This is a personal learning repository, but feel free to:
 - Suggest improvements or corrections
 - Share learning resources
 - Propose interesting project ideas
 
-## 👨‍💻 Author
+## Author
 
 **Ivan Lutso**
 - Learning Python through FreeCodeCamp
 - Building practical skills for software development
 - Documenting the learning journey
 
-## 📝 License
+## License
 
 This project is open source and available for educational purposes.
 
@@ -149,4 +149,4 @@ This project is open source and available for educational purposes.
 
 **Note:** This repository is continuously updated as I progress through my Python learning journey. Check back often for new content!
 
-*Happy Coding! 🚀*
+*Happy Coding!*
