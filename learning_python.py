@@ -5,3 +5,4 @@ def greet(name):
     print(f"Hello, {name}!")
 greet("Alice")  # Calling the function with the name "Alice"
 
+print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ') # Demonstrating the use of the sep parameter in the print function to customize the separator between printed items.
