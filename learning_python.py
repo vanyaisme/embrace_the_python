@@ -77,4 +77,10 @@ print(my_str[3:9]) # Slicing the string from index 3 to 9
 print(my_str.replace('PYTHON', 'JavaScript')) # Replacing a substring in the string
 print(my_str.split(',')) # Splitting the string into a list based on a delimiter
 
+my_str_draft = "No matter where you live"
+my_str_final = ", matter what inside your code." 
+
+concat = my_str_draft + my_str_final # Concatenating two strings
+print(concat) # Printing the concatenated string
+print(concat + " " * 3) # Repeating the concatenated string 3 times
 
