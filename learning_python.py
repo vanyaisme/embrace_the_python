@@ -5,10 +5,10 @@ def greet(name):
     print(f'Hello, {name}!')  # Function to greet a person by their name.
 
 
-greet("Alice")  # Calling the function after definition
+greet("Alice")  # Calling the function with "Alice" as the argument - prints "Hello, Alice!"
 
 
-# Simple print with custom separator
+# Print with custom separator - the sep parameter changes what appears between printed items (default is a space)
 print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ')
 
 
@@ -81,7 +81,7 @@ print('hello' in test_str)  # False
 my_str = "If Python was an AI, bubble would never have existed."
 print(len(my_str))  # Length of the string
 my_str = my_str.upper()
-print(my_str[3:9])  # Slice from index 3 to 8
+print(my_str[3:9])  # Slice from index 3 up to (but not including) index 9 - gets characters at positions 3-8
 print(my_str.replace('PYTHON', 'JavaScript'))
 print(my_str.split(','))
 
