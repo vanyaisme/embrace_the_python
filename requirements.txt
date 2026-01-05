@@ -1,0 +1,11 @@
+# Python Package Requirements
+# This file lists Python packages used in this learning repository
+
+# Testing (for future test development)
+pytest>=7.0.0
+
+# Code quality tools
+black>=22.0.0
+pylint>=2.0.0
+
+# Add additional packages as needed for projects
