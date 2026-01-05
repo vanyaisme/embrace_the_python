@@ -89,7 +89,7 @@ print(type(my_none_var))  # <class 'NoneType'>
 # TYPE CHECKING WITH isinstance()
 # =============================================================================
 
-# isinstance() lets you check if a variable is of a specific type
+# isinstance() allows you to check if a variable is of a specific type
 print(isinstance(age, int))      # True
 print(isinstance('Cute', int))   # False
 print(isinstance(height, float)) # True
