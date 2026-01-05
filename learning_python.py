@@ -55,15 +55,12 @@ print(type(my_complex_var)) # <class 'complex'>
 
 my_none_var = None
 print(type(my_none_var)) # <class 'NoneType'>
-    
+
 print("End of the program.")
 
-# isinstance() let's you check if a variable is of a specific type
 isinstance(age, int) # True
 isinstance('Cute', int) # False
-isinstance(height, float) # True 
+isinstance(height, float) # True
 
-test_str = 'Hi there!'
-print('Hi' in test_str) # True
-print('hello' in test_str) # False # 'in' operator checks for substring presence in a string
-#git commit -m ""
+# isinstance() let's you check if a variable is of a specific type
+
