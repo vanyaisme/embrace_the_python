@@ -1,86 +1,97 @@
-print("Hello World!") # This is a simple Python program that prints "Hello World!" to the console.
+print("Hello World!")  # Basic hello
+
 
 def greet(name):
-    print(f'Hello, {name}!') # Function to greet a person by their name.
+    print(f'Hello, {name}!')  # Function to greet a person by their name.
 
-greet("Alice")  # Calling the function with the name "Alice"
 
-print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ') # Demonstrating the use of the sep parameter in the print function to customize the separator between printed items.
+greet("Alice")  # Calling the function after definition
 
-name = 'Ivan' # Assigning a string value to a variable
-surname = 'Lutso' 
-age = 25      # Assigning an integer value to a variable
-height = 1.83 # Assigning a float value to a variable
-is_student = True # Assigning a boolean value to a variable
-print(f'{name} {surname} is {age} years old, {height} meters tall, and student status is {is_student}.') # Using an f-string to format and print multiple variables in a single line.
 
+# Simple print with custom separator
+print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ')
+
+
+# Personal info variables and formatted output
+name = 'Ivan'
+surname = 'Lutso'
+age = 25
+height = 1.83
+is_student = True
+print(f'{name} {surname} is {age} years old, {height} meters tall, and student status is {is_student}.')
+
+
+# Core Python data types
 my_integer_var = 10
-print(type(my_integer_var)) # <class 'int'>
+print(type(my_integer_var))  # <class 'int'>
 
 my_float_var = 10.5
-print(type(my_float_var)) # <class 'float'>
+print(type(my_float_var))  # <class 'float'>
 
 my_string_var = "Hello"
-print(type(my_string_var)) # <class 'str'>
+print(type(my_string_var))  # <class 'str'>
 
 my_boolean_var = False
-print(type(my_boolean_var)) # <class 'bool'>
+print(type(my_boolean_var))  # <class 'bool'>
 
 my_dictionary_var = {"key": "value"}
-print(type(my_dictionary_var)) # <class 'dict'>
+print(type(my_dictionary_var))  # <class 'dict'>
 
 my_tuple_var = (8, 4, 5)
-print(type(my_tuple_var)) # <class 'tuple'>
+print(type(my_tuple_var))  # <class 'tuple'>
 
 my_range_var = range(5)
-print(type(my_range_var)) # <class 'range'>
+print(type(my_range_var))  # <class 'range'>
 
 my_list_var = [2.3, 'Bye', 7, True]
-print(type(my_list_var)) # <class 'list'>
+print(type(my_list_var))  # <class 'list'>
 
 my_set_var = {1, 2, 3}
-print(type(my_set_var)) # <class 'set'>
+print(type(my_set_var))  # <class 'set'>
 
 my_bytes_var = b'example'
-print(type(my_bytes_var)) # <class 'bytes'>
+print(type(my_bytes_var))  # <class 'bytes'>
 
-my_frozenset_var = frozenset([4, 5, 6]) 
-print(type(my_frozenset_var)) # <class 'frozenset'>
+my_frozenset_var = frozenset([4, 5, 6])
+print(type(my_frozenset_var))  # <class 'frozenset'>
 
 my_bytearray_var = bytearray(b'example')
-print(type(my_bytearray_var)) # <class 'bytearray'>
+print(type(my_bytearray_var))  # <class 'bytearray'>
 
 my_complex_var = 3 + 4j
-print(type(my_complex_var)) # <class 'complex'>
+print(type(my_complex_var))  # <class 'complex'>
 
 my_none_var = None
-print(type(my_none_var)) # <class 'NoneType'>
-    
-print("End of the program.")
+print(type(my_none_var))  # <class 'NoneType'>
 
-# isinstance() let's you check if a variable is of a specific type
-isinstance(age, int) # True
-isinstance('Cute', int) # False
-isinstance(height, float) # True
 
-# isinstance() let's you check if a variable is of a specific type
-isinstance(height, float) # True 
+# Type checking with isinstance
+print(isinstance(age, int))  # True
+print(isinstance('Cute', int))  # False
+print(isinstance(height, float))  # True
 
+
+# Substring checks
 test_str = 'Hi there!'
-print('Hi' in test_str) # True
-print('hello' in test_str) # False # 'in' operator checks for substring presence in a string
+print('Hi' in test_str)  # True
+print('hello' in test_str)  # False
 
+
+# String operations
 my_str = "If Python was an AI, bubble would never have existed."
-print(len(my_str)) # Using len() to get the length of the string
-my_str = my_str.upper() # Converting the string to uppercase
-print(my_str[3:9]) # Slicing the string from index 3 to 9
-print(my_str.replace('PYTHON', 'JavaScript')) # Replacing a substring in the string
-print(my_str.split(',')) # Splitting the string into a list based on a delimiter
+print(len(my_str))  # Length of the string
+my_str = my_str.upper()
+print(my_str[3:9])  # Slice from index 3 to 8
+print(my_str.replace('PYTHON', 'JavaScript'))
+print(my_str.split(','))
 
+
+# Concatenation and repetition
 my_str_draft = "No matter where you live"
-my_str_final = ", matter what inside your code." 
+my_str_final = ", matter what inside your code."
+concat = my_str_draft + my_str_final
+print(concat)
+print((concat + " ") * 3)  # Repeat the concatenated string 3 times
 
-concat = my_str_draft + my_str_final # Concatenating two strings
-print(concat) # Printing the concatenated string
-print(concat + " " * 3) # Repeating the concatenated string 3 times
 
+print("End of the program.")
