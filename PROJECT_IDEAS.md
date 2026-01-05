@@ -1,13 +1,13 @@
-# 💡 Python Project Ideas
+# Python Project Ideas
 
 A collection of beginner-friendly Python project ideas to practice and improve your coding skills.
 
-## 🟢 Beginner Projects (Easy)
+## Beginner Projects (Easy)
 
 ### 1. Calculator
 **Description:** Build a simple calculator that can perform basic arithmetic operations.
 **Skills Required:** Functions, user input, conditional statements
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Addition, subtraction, multiplication, division
 - Handle division by zero
@@ -16,7 +16,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 2. Number Guessing Game
 **Description:** Create a game where the computer picks a random number and the user tries to guess it.
 **Skills Required:** Random module, loops, conditionals, user input
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Set difficulty levels (range of numbers)
 - Give hints (higher/lower)
@@ -26,7 +26,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 3. To-Do List Application
 **Description:** A simple command-line to-do list manager.
 **Skills Required:** Lists, file I/O, functions
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Add, remove, and view tasks
 - Mark tasks as complete
@@ -36,7 +36,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 4. Password Generator
 **Description:** Generate secure random passwords based on user specifications.
 **Skills Required:** Random module, strings, functions
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Specify password length
 - Include/exclude special characters, numbers, uppercase
@@ -46,7 +46,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 5. Temperature Converter
 **Description:** Convert between Celsius, Fahrenheit, and Kelvin.
 **Skills Required:** Functions, user input, mathematical operations
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Convert between all three temperature scales
 - Input validation
@@ -56,7 +56,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 6. Rock, Paper, Scissors Game
 **Description:** Play the classic game against the computer.
 **Skills Required:** Random module, conditionals, loops
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Keep score across multiple rounds
 - Best of 3/5/7 modes
@@ -66,19 +66,19 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 7. Simple Mad Libs Generator
 **Description:** Create funny stories by filling in the blanks.
 **Skills Required:** Strings, user input, string formatting
-**Difficulty:** ⭐☆☆☆☆
+**Difficulty:** 1/5
 **Features to Include:**
 - Multiple story templates
 - Collect words (nouns, verbs, adjectives)
 - Display completed story
 - Save stories to file
 
-## 🟡 Intermediate Projects (Moderate)
+## Intermediate Projects (Moderate)
 
 ### 8. Hangman Game
 **Description:** Classic word-guessing game.
 **Skills Required:** Lists, strings, loops, file I/O
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Load words from a file
 - Display current progress
@@ -89,7 +89,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 9. Quiz Application
 **Description:** Interactive quiz with multiple-choice questions.
 **Skills Required:** Lists/dictionaries, file I/O, conditionals
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Load questions from JSON file
 - Multiple categories
@@ -100,7 +100,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 10. Personal Expense Tracker
 **Description:** Track daily expenses and generate reports.
 **Skills Required:** File I/O, dictionaries, date/time, basic data analysis
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Add/edit/delete expenses
 - Categorize expenses
@@ -111,7 +111,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 11. URL Shortener
 **Description:** Create shortened versions of URLs.
 **Skills Required:** Dictionaries, strings, file I/O, hashing
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Generate short codes for URLs
 - Retrieve original URLs from short codes
@@ -122,7 +122,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 12. Countdown Timer / Pomodoro Timer
 **Description:** Productivity timer with notifications.
 **Skills Required:** Time module, loops, functions
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Set custom countdown times
 - Pomodoro technique (25min work, 5min break)
@@ -133,7 +133,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 13. Simple Contact Book
 **Description:** Store and manage contact information.
 **Skills Required:** File I/O, dictionaries, CRUD operations
-**Difficulty:** ⭐⭐☆☆☆
+**Difficulty:** 2/5
 **Features to Include:**
 - Add, view, update, delete contacts
 - Search contacts by name
@@ -144,7 +144,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 14. Weather App (CLI)
 **Description:** Fetch and display weather information for cities.
 **Skills Required:** API requests, JSON parsing, error handling
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Use OpenWeatherMap API (free)
 - Display current weather
@@ -152,12 +152,12 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 - Multiple cities
 - Temperature unit conversion
 
-## 🔴 Advanced Beginner Projects (Challenging)
+## Advanced Beginner Projects (Challenging)
 
 ### 15. Simple Blog Generator (Static Site)
 **Description:** Generate a static blog website from markdown files.
 **Skills Required:** File I/O, string manipulation, HTML basics
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Convert markdown to HTML
 - Generate index page with post list
@@ -168,7 +168,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 16. Tic-Tac-Toe with AI
 **Description:** Play tic-tac-toe against a computer opponent.
 **Skills Required:** 2D lists, game logic, basic AI (minimax algorithm)
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Player vs Player mode
 - Player vs Computer with difficulty levels
@@ -179,7 +179,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 17. File Organizer
 **Description:** Automatically organize files in a directory.
 **Skills Required:** OS module, file handling, path manipulation
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Organize by file type/extension
 - Create folders automatically
@@ -191,7 +191,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 18. Text-Based Adventure Game
 **Description:** Create an interactive story game.
 **Skills Required:** Dictionaries, functions, game logic, file I/O
-**Difficulty:** ⭐⭐⭐☆☆
+**Difficulty:** 3/5
 **Features to Include:**
 - Multiple rooms/locations
 - Inventory system
@@ -202,7 +202,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 19. Web Scraper
 **Description:** Extract data from websites.
 **Skills Required:** requests, BeautifulSoup, HTML basics, file I/O
-**Difficulty:** ⭐⭐⭐⭐☆
+**Difficulty:** 4/5
 **Features to Include:**
 - Scrape specific data (prices, titles, etc.)
 - Handle pagination
@@ -213,7 +213,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 ### 20. Personal Finance Dashboard
 **Description:** Comprehensive financial tracking and visualization.
 **Skills Required:** Data structures, file I/O, data visualization, calculations
-**Difficulty:** ⭐⭐⭐⭐☆
+**Difficulty:** 4/5
 **Features to Include:**
 - Income and expense tracking
 - Budget planning
@@ -222,7 +222,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 - Financial reports
 - Export to Excel
 
-## 🎯 Project Selection Tips
+## Project Selection Tips
 
 1. **Start Small:** Begin with easier projects and gradually increase complexity
 2. **Personal Interest:** Choose projects that solve problems you actually have
@@ -230,7 +230,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 4. **Iterate:** Start with basic features, then add more as you learn
 5. **Portfolio:** Document your projects well - they showcase your skills!
 
-## 📚 How to Approach These Projects
+## How to Approach These Projects
 
 1. **Plan First:** Write down features and requirements
 2. **Break It Down:** Divide the project into smaller, manageable tasks
@@ -240,7 +240,7 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 6. **Refactor:** Improve your code as you learn better ways
 7. **Document:** Add comments and README files
 
-## 🌟 After Completing a Project
+## After Completing a Project
 
 - Add it to your GitHub portfolio
 - Write about what you learned
@@ -250,6 +250,6 @@ A collection of beginner-friendly Python project ideas to practice and improve y
 
 ---
 
-**Remember:** The best project is one you'll actually finish! Start with something achievable and build from there. 🚀
+**Remember:** The best project is one you'll actually finish! Start with something achievable and build from there.
 
 **Pro Tip:** Combine projects! For example, add a quiz feature to your to-do list, or integrate weather data into your personal dashboard.
