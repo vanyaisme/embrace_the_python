@@ -63,4 +63,3 @@ isinstance('Cute', int) # False
 isinstance(height, float) # True
 
 # isinstance() let's you check if a variable is of a specific type
-
