@@ -19,12 +19,27 @@ This repository serves as my personal learning log and practice space for Python
 
 ### Basics
 - [x] Variables and data types
+  - [ ] Declaring variables
+  - [ ] Print function
+  - [ ] Common data types
+  - [ ] How to get type of a variable
 - [x] String operations and formatting
-- [x] Functions and parameters
-- [ ] Control flow (if/else, loops)
-- [ ] Lists and list comprehensions
+  - [ ] Strings and string immutability
+  - [ ] String slicing
+  - [ ] Common string methods
+- [ ] Numbers and Mathematical Operations
+  - [ ] Integers and floating point numbers
+  - [ ] Augmented assignements 
+- [ ] Boolean and conditionals
+  - [ ] Conditional statements and logical operators
+  - [ ] True and False values 
+  - [ ] Boolearn operators and short-circuiting
+- [ ] Functions and scope
+  - [ ] Functions
+  - [ ] Scope
+- [ ] Loops and sequences
 - [ ] Dictionaries and sets
-- [ ] File I/O operations
+- [ ] Error handling
 
 ### Intermediate
 - [ ] Object-oriented programming (classes, inheritance)
