@@ -145,3 +145,8 @@ print(str_methods.lower())  # Converts to lowercase # if i was a mushroom, life 
 print(str_methods.strip())  # Removes leading and trailing whitespace # (no effect here as there is no extra whitespace)
 print(str_methods.replace('mushroom', 'scientist'))  # Replaces 'mushroom' with 'scientist' # If I was a scientist, life would be easier.
 print(str_methods.split(','))  # Splits the string at each comma # ['If I was a mushroom', ' life would be easier.']
+
+
+my_list = ['life', 'is', 'beautiful']
+print('.'.join(my_list)) # Joins list elements with '.' as separator # life.is.beautiful
+# join() method joins elements of an iterable (like list) into a single string with specified separator
