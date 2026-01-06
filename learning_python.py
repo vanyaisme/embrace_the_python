@@ -122,5 +122,20 @@ num1 = 20
 num2 = 8
 print(f'The sum of {num1} and {num2} is {num1 + num2}.') # The sum of 20 and 8 is 28.
 # Embedding expressions inside f-strings
+# No need to use str() for conversion inside f-strings
+
+#String Slicing
+sample_str = "The Earth orbits the Sun in an elliptical path."
+print(sample_str[4:25])
+# Slicing from index 4 to 24 (25 is excluded)
+
+print(sample_str[:10])  # From the start of the string to index 9
+print(sample_str[11:])  # From index 11 to end of the string
+
+#String doesn't modify original string when slicing
+
+# string[start:end:step]
+print(sample_str[0:25:2]) # TeErhobt h u (every second character from index 0 to 24)
+print(sample_str[::-1]) # .htap lacitpille na ni nuS eht sbitrO htraE ehT (reverses the string)
 
 
