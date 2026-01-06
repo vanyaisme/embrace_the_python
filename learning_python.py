@@ -95,3 +95,17 @@ print((concat + " ") * 3)  # Repeat the concatenated string 3 times
 
 
 print("End of the program.")
+
+# Session 2 06/01/2026
+# Introduction to Strings
+# All elements should be in string format to concatenate
+
+name_str = "Alex"
+age_integer = 30 # integer
+print(name_str + str (age_integer)) # Alex30
+# Type conversion from integer to string using str() function
+
+
+
+
+
