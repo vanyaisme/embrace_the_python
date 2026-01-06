@@ -118,5 +118,9 @@ greeting = f'Hello, my name is {name_str} and I am {age_integer} years old.'
 print(greeting)  # Hello, my name is Alex and I am 30 years old
 # Using f-string for string interpolation
 
+num1 = 20
+num2 = 8
+print(f'The sum of {num1} and {num2} is {num1 + num2}.') # The sum of 20 and 8 is 28.
+# Embedding expressions inside f-strings
 
 
