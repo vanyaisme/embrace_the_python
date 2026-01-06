@@ -59,12 +59,16 @@ This repository serves as my personal learning log and practice space for Python
 ## Project Structure
 
 ```
-FreeCodeCamp/
+embrace_the_python/
+│
+├── .github/                         # GitHub configuration files
 │
 ├── basics/                          # Fundamental Python concepts
 │   ├── variables_and_types.py       # Variables and data types
 │   ├── strings_and_formatting.py    # String manipulation
-│   └── functions.py                 # Function basics
+│   ├── functions.py                 # Function basics
+│   ├── learning_python.py           # Comprehensive Python basics
+│   └── learning_python_2.py         # Additional learning exercises
 │
 ├── intermediate/                    # Intermediate concepts (coming soon)
 │
@@ -73,7 +77,7 @@ FreeCodeCamp/
 ├── exercises/                       # Practice exercises
 │   └── practice_exercises.py        # Beginner exercises with solutions
 │
-├── learning_python.py               # Original learning file (archived)
+├── .gitignore                       # Git ignore configuration
 ├── README.md                        # This file
 ├── RESOURCES.md                     # Learning resources and links
 ├── PROJECT_IDEAS.md                 # Project ideas for practice
@@ -90,8 +94,8 @@ FreeCodeCamp/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/vanyaisme/FreeCodeCamp.git
-cd FreeCodeCamp
+git clone https://github.com/vanyaisme/embrace_the_python.git
+cd embrace_the_python
 ```
 
 2. Run any Python file:
