@@ -1,4 +1,4 @@
-# FreeCodeCamp Python Learning Journey
+# Learning Python using FreeCodeCamp curriculum
 
 A comprehensive repository documenting my journey learning Python through FreeCodeCamp and various programming exercises.
 
