@@ -19,14 +19,14 @@ This repository serves as my personal learning log and practice space for Python
 
 ### Basics
 - [x] Variables and data types
-  - [ ] Declaring variables
-  - [ ] Print function
-  - [ ] Common data types
-  - [ ] How to get type of a variable
+  - [x] Declaring variables
+  - [x] Print function
+  - [x] Common data types
+  - [x] How to get type of a variable
 - [x] String operations and formatting
-  - [ ] Strings and string immutability
-  - [ ] String slicing
-  - [ ] Common string methods
+  - [x] Strings and string immutability
+  - [x] String slicing
+  - [x] Common string methods
 - [ ] Numbers and Mathematical Operations
   - [ ] Integers and floating point numbers
   - [ ] Augmented assignements 
