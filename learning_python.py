@@ -160,3 +160,15 @@ print( 'Index of "treasure" in "' + str_localization + '"is ' + str(str_localiza
 str_count = str_localization
 print(str_count.count('e'))  # 4 # Counts occurrences of 'e'
 print('The word "the" appears ' + str(str_count.count('the')) + ' times in the string.')  # 1 # Counts occurrences of 'the'
+
+str_capitalized = str_localization
+print(str_capitalized.capitalize())  # Where is the treasure located? # Capitalizes the first character, makes rest lowercase
+print(str_capitalized.title())  # Where Is The Treasure Located? # Capitalizes the first character of each word
+print(str_capitalized.swapcase())  # WHERE IS THE TREASURE LOCATED? # Swaps case of each character
+
+print(str_capitalized.isalpha())  # False # Checks if all characters are alphabetic
+print(str_capitalized.isdigit())  # False # Checks if all characters are digits
+print(str_capitalized.isspace())  # False # Checks if all characters are whitespace
+
+print(str_capitalized.isupper())  # False # Checks if all characters are uppercase
+print(str_capitalized.islower())  # True # Checks if all characters are lowercase
