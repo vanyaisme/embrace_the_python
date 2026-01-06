@@ -105,6 +105,12 @@ age_integer = 30 # integer
 print(name_str + str (age_integer)) # Alex30
 # Type conversion from integer to string using str() function
 
+name_and_age = name_str
+name_and_age += str(age_integer)
+print(name_and_age)  # Alex30
+# Using += operator to concatenate strings
+# The process of inserting variables and expressions inside a string is called string interpolation
+
 
 
 
