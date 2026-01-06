@@ -150,3 +150,9 @@ print(str_methods.split(','))  # Splits the string at each comma # ['If I was a 
 my_list = ['life', 'is', 'beautiful']
 print('.'.join(my_list)) # Joins list elements with '.' as separator # life.is.beautiful
 # join() method joins elements of an iterable (like list) into a single string with specified separator
+
+str_localization = "where is the treasure located?"
+print(str_localization) # where is the treasure located?
+print('Is ' +str_localization + ' starts with Where? — ' + str(str_localization.startswith('where')))  # True # Checks if string starts with 'Where'
+print('Is ' +str_localization + ' ends with treasure? — ' + str(str_localization.endswith('treasure')))  # False # Checks if string ends with 'treasure'
+print( 'Index of "treasure" in "' + str_localization + '"is ' + str(str_localization.find('treasure')))  # 13 # Finds the starting index of 'treasure'
