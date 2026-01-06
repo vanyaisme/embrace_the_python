@@ -111,7 +111,12 @@ print(name_and_age)  # Alex30
 # Using += operator to concatenate strings
 # The process of inserting variables and expressions inside a string is called string interpolation
 
+# f-strings (formatted string literals) are a way to embed expressions inside string literals, using curly braces {}
+# f-strings are prefixed with 'f' or 'F' before the opening quotation mark
 
+greeting = f'Hello, my name is {name_str} and I am {age_integer} years old.'
+print(greeting)  # Hello, my name is Alex and I am 30 years old
+# Using f-string for string interpolation
 
 
 
