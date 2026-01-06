@@ -138,4 +138,10 @@ print(sample_str[11:])  # From index 11 to end of the string
 print(sample_str[0:25:2]) # TeErhobt h u (every second character from index 0 to 24)
 print(sample_str[::-1]) # .htap lacitpille na ni nuS eht sbitrO htraE ehT (reverses the string)
 
-
+# Common String Methods
+str_methods = "If I was a mushroom, life would be easier."
+print(str_methods.upper())  # Converts to uppercase # IF I WAS A MUSHROOM, LIFE WOULD BE EASIER.
+print(str_methods.lower())  # Converts to lowercase # if i was a mushroom, life would be easier.
+print(str_methods.strip())  # Removes leading and trailing whitespace # (no effect here as there is no extra whitespace)
+print(str_methods.replace('mushroom', 'scientist'))  # Replaces 'mushroom' with 'scientist' # If I was a scientist, life would be easier.
+print(str_methods.split(','))  # Splits the string at each comma # ['If I was a mushroom', ' life would be easier.']
