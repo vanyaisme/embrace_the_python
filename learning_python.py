@@ -156,3 +156,7 @@ print(str_localization) # where is the treasure located?
 print('Is ' +str_localization + ' starts with Where? — ' + str(str_localization.startswith('where')))  # True # Checks if string starts with 'Where'
 print('Is ' +str_localization + ' ends with treasure? — ' + str(str_localization.endswith('treasure')))  # False # Checks if string ends with 'treasure'
 print( 'Index of "treasure" in "' + str_localization + '"is ' + str(str_localization.find('treasure')))  # 13 # Finds the starting index of 'treasure'
+
+str_count = str_localization
+print(str_count.count('e'))  # 4 # Counts occurrences of 'e'
+print('The word "the" appears ' + str(str_count.count('the')) + ' times in the string.')  # 1 # Counts occurrences of 'the'
