@@ -18,25 +18,41 @@ This repository serves as my personal learning log and practice space for Python
 ## Topics Covered
 
 ### Basics
+- [x] Basic I/O and print operations
+  - [x] Basic output with print()
+  - [x] Advanced print features (sep parameter)
 - [x] Variables and data types
   - [x] Declaring variables
   - [x] Print function
   - [x] Common data types
   - [x] How to get type of a variable
+  - [x] Type checking with isinstance()
+  - [x] Membership testing with 'in' operator
 - [x] String operations and formatting
   - [x] Strings and string immutability
-  - [x] String slicing
+  - [x] String slicing and indexing
   - [x] Common string methods
-- [ ] Numbers and Mathematical Operations
-  - [ ] Integers and floating point numbers
-  - [ ] Augmented assignements 
-- [ ] Boolean and conditionals
-  - [ ] Conditional statements and logical operators
-  - [ ] True and False values 
-  - [ ] Boolearn operators and short-circuiting
-- [ ] Functions and scope
-  - [ ] Functions
-  - [ ] Scope
+  - [x] F-strings and formatting
+  - [x] Case transformation methods
+  - [x] String searching and validation
+- [x] Numbers and Mathematical Operations
+  - [x] Integers and floating point numbers
+  - [x] Augmented assignments
+  - [x] Type conversion functions
+  - [x] Rounding and absolute value
+  - [x] Power and base conversion
+- [x] Boolean and conditionals
+  - [x] Conditional statements and logical operators
+  - [x] True and False values
+  - [x] Boolean operators (and, or, not)
+  - [x] Truthy and falsy values
+  - [x] Nested conditionals
+- [x] Functions and scope
+  - [x] Function definition and calling
+  - [x] Parameters vs arguments
+  - [x] Return statements
+  - [x] Variable scope (LEGB rule)
+  - [x] Built-in functions
 - [ ] Loops and sequences
 - [ ] Dictionaries and sets
 - [ ] Error handling
@@ -64,11 +80,14 @@ embrace_the_python/
 ├── .github/                         # GitHub configuration files
 │
 ├── basics/                          # Fundamental Python concepts
-│   ├── variables_and_types.py       # Variables and data types
-│   ├── strings_and_formatting.py    # String manipulation
-│   ├── functions.py                 # Function basics
-│   ├── learning_python.py           # Comprehensive Python basics
-│   └── learning_python_2.py         # Additional learning exercises
+│   ├── 01_basics_io_and_print.py    # Basic I/O and print operations
+│   ├── 02_variables_and_data_types.py # Variables and type system
+│   ├── 03_strings_and_formatting.py # Complete string operations
+│   ├── 04_numeric_operations.py     # Numbers and arithmetic operators
+│   ├── 05_conditionals.py           # Booleans and control flow
+│   ├── 06_functions.py              # Functions and variable scope
+│   ├── learning_python.py           # Comprehensive Python basics (Sessions 1-2)
+│   └── learning_python_2.py         # Advanced topics (Sessions 3-5)
 │
 ├── intermediate/                    # Intermediate concepts (coming soon)
 │
@@ -83,6 +102,22 @@ embrace_the_python/
 ├── PROJECT_IDEAS.md                 # Project ideas for practice
 └── requirements.txt                 # Python package dependencies
 ```
+
+### About the Module Structure
+
+The `basics/` directory contains two types of learning files:
+
+**Topic-Specific Modules (01-06):**
+- Focused, single-topic modules for targeted learning
+- Numbered for sequential progression
+- Each module is self-contained and independently executable
+- Ideal for studying specific concepts
+
+**Comprehensive Learning Files:**
+- `learning_python.py` - Sessions 1-2: Python fundamentals and strings
+- `learning_python_2.py` - Sessions 3-5: Numbers, conditionals, and functions
+- Complete learning sessions with multiple topics
+- Useful for comprehensive reviews
 
 ## How to Run the Code
 
@@ -100,14 +135,23 @@ cd embrace_the_python
 
 2. Run any Python file:
 ```bash
-# Run basics examples
-python basics/variables_and_types.py
-python basics/strings_and_formatting.py
-python basics/functions.py
+# Run topic-specific modules (recommended for focused learning)
+python basics/01_basics_io_and_print.py
+python basics/02_variables_and_data_types.py
+python basics/03_strings_and_formatting.py
+python basics/04_numeric_operations.py
+python basics/05_conditionals.py
+python basics/06_functions.py
+
+# Run comprehensive learning sessions
+python basics/learning_python.py      # Sessions 1-2
+python basics/learning_python_2.py    # Sessions 3-5
 
 # Practice exercises
 python exercises/practice_exercises.py
 ```
+
+**Note:** Files with `input()` calls (like `05_conditionals.py` and `06_functions.py`) are interactive and will prompt you for input during execution.
 
 ### Setting Up Virtual Environment (Optional but Recommended)
 
@@ -137,9 +181,10 @@ Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ide
 
 **Last Updated:** January 2026
 
-- Completed: Python basics (variables, types, strings, functions)
-- In Progress: Practice exercises
-- Next Up: Control flow and loops
+- Completed: Python basics (I/O, variables, types, strings, numbers, conditionals, functions)
+- Completed: Modular restructuring for focused topic-based learning
+- In Progress: Practice exercises and advanced topics
+- Next Up: Loops, sequences, dictionaries, and error handling
 
 ## Certifications & Courses
 
