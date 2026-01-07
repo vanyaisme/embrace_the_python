@@ -476,7 +476,7 @@ username = "Bob"
 greet_user(username)  # The value of username is passed to the function
 
 # help() - Displays documentation (docstring) for a function
-print(help(greet_user))  # Shows the docstring we wrote
+help(greet_user)  # Shows the docstring we wrote (also prints None as help() returns None)
 
 
 # -----------------------------------------------------------------------------
@@ -596,10 +596,6 @@ my_func()  # This works
 
 # print(local_var)  # This would raise a NameError because local_var is not defined outside the function
 
-print("\n" + "="*60)
-print("END OF SESSION 5")
-print("="*60 + "\n")
-
 
 # Enclosing Scope — function that's nested inside another function can access variables of the functions it's nested within.
 def outer_func():
@@ -657,6 +653,7 @@ print(len("Hello"))  # Using built-in len() function to get length of string
 print(max(5, 10, 3))  # Using built-in max() function to get the maximum value
 # etc..
 
+
 print("\n" + "="*60)
-print("END OF SESSION 5 (CONTINUED)")
+print("END OF SESSION 5")
 print("="*60 + "\n")
