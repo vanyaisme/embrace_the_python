@@ -257,16 +257,15 @@ else:
 
 # Example with user input
 # input() always returns a string, so we convert it to int
-# Note: Commented out to allow script to run without interruption
-# age = int(input("How old are you? "))
-# if age < 13:
-#     print("You are a child.")
-# elif age < 18:
-#     print("You are a teenager.")
-# elif age <= 25:
-#     print("You are a young adult.")
-# else:
-#     print("You are getting old, my friend.")
+age = int(input("How old are you? "))
+if age < 13:
+    print("You are a child.")
+elif age < 18:
+    print("You are a teenager.")
+elif age <= 25:
+    print("You are a young adult.")
+else:
+    print("You are getting old, my friend.")
 
 
 # -----------------------------------------------------------------------------
@@ -276,26 +275,8 @@ else:
 # Each level of nesting adds another layer of indentation.
 # Be careful with indentation - it determines which code belongs where!
 
-# Note: Interactive examples commented out to allow script to run without interruption
-# is_student = input("Are you a student? (yes/no): ")
-# age = int(input("How old are you? "))
-#
-# if is_student == "yes":
-#     print("You are eligible for a student discount!")
-#     if age < 18:
-#         print("You get an additional youth discount!")
-#     else:
-#         print("Standard student discount applies.")
-# else:
-#     print("No student discount available.")
-#     if age < 18:
-#         print("But you qualify for a youth discount!")
-#     else:
-#         print("Regular pricing applies.")
-
-# Example with predefined values (demonstrates the same logic)
-is_student = "yes"
-age = 16
+is_student = input("Are you a student? (yes/no): ")
+age = int(input("How old are you? "))
 
 if is_student == "yes":
     print("You are eligible for a student discount!")
@@ -380,15 +361,7 @@ print(bool([]))          # Output: False - empty list is falsy
 print(bool([1, 2, 3]))   # Output: True - non-empty list is truthy
 
 # Practical examples using truthy/falsy values
-# Note: Interactive examples commented out to allow script to run without interruption
-# user_input = input("Enter your name (or press Enter to skip): ")
-# if user_input:  # Non-empty string is truthy
-#     print(f"Hello, {user_input}!")
-# else:  # Empty string is falsy
-#     print("Hello, anonymous!")
-
-# Example with predefined value (demonstrates the same logic)
-user_input = "Alice"
+user_input = input("Enter your name (or press Enter to skip): ")
 if user_input:  # Non-empty string is truthy
     print(f"Hello, {user_input}!")
 else:  # Empty string is falsy
@@ -419,36 +392,20 @@ print("="*60 + "\n")
 # Python comes with many pre-built functions that perform common tasks.
 # You don't need to define them - they're always available.
 
-# Note: Interactive examples commented out to allow script to run without interruption
 # input() - Gets user input (always returns a string)
-# name = input("What's your name? ")
-# print("Hello, " + name + "!")
-#
-# mood = input("How are you feeling today? ")
-# print("You are feeling", mood.lower(), "today.")
-#
-# int() - Converts a string to an integer
-# age = int(input("How old are you? "))
-# next_year_age = age + 1
-# print("Next year, you will be", next_year_age, "years old.")
-#
-# len() - Returns the length of a string or collection
-# favorite_color = input("What's your favorite color? ")
-# color_length = len(favorite_color)
-# print("Your favorite color has", color_length, "characters.")
-
-# Example with predefined values (demonstrates the same logic)
-name = "Alice"
+name = input("What's your name? ")
 print("Hello, " + name + "!")
 
-mood = "Happy"
+mood = input("How are you feeling today? ")
 print("You are feeling", mood.lower(), "today.")
 
-age = 25
+# int() - Converts a string to an integer
+age = int(input("How old are you? "))
 next_year_age = age + 1
 print("Next year, you will be", next_year_age, "years old.")
 
-favorite_color = "blue"
+# len() - Returns the length of a string or collection
+favorite_color = input("What's your favorite color? ")
 color_length = len(favorite_color)
 print("Your favorite color has", color_length, "characters.")
 
@@ -467,16 +424,11 @@ def greet_user(username):
     print("Hello, " + username.title() + "!")
 
 # Calling the function with an argument
-# Note: Interactive example commented out to allow script to run without interruption
-# username = input("How do you want me to call you? ")
-# greet_user(username)  # The value of username is passed to the function
-
-# Example with predefined value (demonstrates the same logic)
-username = "Bob"
+username = input("How do you want me to call you? ")
 greet_user(username)  # The value of username is passed to the function
 
 # help() - Displays documentation (docstring) for a function
-help(greet_user)  # Shows the docstring we wrote (also prints None as help() returns None)
+help(greet_user)  # Shows the docstring we wrote
 
 
 # -----------------------------------------------------------------------------
@@ -533,21 +485,8 @@ def calculate_sum_from_input(a, b):
     """Returns the sum of two numbers."""
     return a + b
 
-# Note: Interactive example commented out to allow script to run without interruption
 # Get input from user
-# user_input = input("Enter two numbers separated by space: ")
-# num1, num2 = user_input.split()  # split() divides string by spaces into a list
-#
-# # Convert strings to integers
-# num1 = int(num1)
-# num2 = int(num2)
-#
-# # Call function and display result
-# result = calculate_sum_from_input(num1, num2)
-# print("The sum is:", result)
-
-# Example with predefined values (demonstrates the same logic)
-user_input = "15 27"
+user_input = input("Enter two numbers separated by space: ")
 num1, num2 = user_input.split()  # split() divides string by spaces into a list
 
 # Convert strings to integers
@@ -651,8 +590,7 @@ print("Outside function, local_var_2:", local_var_2)  # This works because local
 print(str(123))  # Using built-in str() function to convert integer to string
 print(len("Hello"))  # Using built-in len() function to get length of string
 print(max(5, 10, 3))  # Using built-in max() function to get the maximum value
-# etc..
-
+# etc.. 
 
 print("\n" + "="*60)
 print("END OF SESSION 5")
