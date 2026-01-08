@@ -1,6 +1,38 @@
 # Learning Python using FreeCodeCamp curriculum
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
+[![FreeCodeCamp](https://img.shields.io/badge/Course-FreeCodeCamp-purple.svg)](https://www.freecodecamp.org/)
+[![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)](https://github.com/vanyaisme/embrace_the_python)
+
 A comprehensive repository documenting my journey learning Python through FreeCodeCamp and various programming exercises.
+
+---
+
+## Table of Contents
+
+- [Learning Python using FreeCodeCamp curriculum](#learning-python-using-freecodecamp-curriculum)
+  - [Table of Contents](#table-of-contents)
+  - [About This Repository](#about-this-repository)
+  - [Learning Goals](#learning-goals)
+  - [Topics Covered](#topics-covered)
+    - [Basics](#basics)
+    - [Intermediate](#intermediate)
+    - [Advanced](#advanced)
+  - [Repository Structure](#repository-structure)
+    - [About the Module Structure](#about-the-module-structure)
+  - [How to Run the Code](#how-to-run-the-code)
+    - [Prerequisites](#prerequisites)
+    - [Running Individual Files](#running-individual-files)
+    - [Setting Up Virtual Environment (Optional but Recommended)](#setting-up-virtual-environment-optional-but-recommended)
+  - [Learning Resources](#learning-resources)
+  - [Project Ideas](#project-ideas)
+  - [Current Progress](#current-progress)
+  - [Certifications \& Courses](#certifications--courses)
+  - [Connect](#connect)
+  - [License](#license)
+
+---
 
 ## About This Repository
 
@@ -15,9 +47,15 @@ This repository serves as my personal learning log and practice space for Python
 - Create clean, well-documented code
 - Follow Python best practices (PEP 8)
 
+---
+
 ## Topics Covered
 
+
 ### Basics
+<details>
+<summary><strong>Core Concepts</strong></summary>
+
 - [x] Basic I/O and print operations
   - [x] Basic output with print()
   - [x] Advanced print features (sep parameter)
@@ -47,32 +85,96 @@ This repository serves as my personal learning log and practice space for Python
   - [x] Boolean operators (and, or, not)
   - [x] Truthy and falsy values
   - [x] Nested conditionals
-- [x] Functions and scope
+- [x] Functions and scopes
   - [x] Function definition and calling
   - [x] Parameters vs arguments
   - [x] Return statements
   - [x] Variable scope (LEGB rule)
   - [x] Built-in functions
-- [ ] Loops and sequences
-- [ ] Dictionaries and sets
-- [ ] Error handling
+  
+</details>
+
+<details>
+<summary><strong>Projects/Labs</strong></summary>
+
+- [x] [Caesar cipher](https://github.com/vanyaisme/embrace_the_python/blob/main/projects/caesar_cypher.py)
+- [x] [RPG character](https://github.com/vanyaisme/embrace_the_python/blob/main/projects/RPG_character.py)
+  
+</details>
 
 ### Intermediate
-- [ ] Object-oriented programming (classes, inheritance)
-- [ ] Error handling and exceptions
-- [ ] Modules and packages
-- [ ] Regular expressions
-- [ ] Working with APIs
-- [ ] Database operations
+<details>
+<summary><strong>Core Concepts</strong></summary>
+
+- [ ] Loops and sequences
+  - [ ] Lists and operations
+  - [ ] Common list methods
+  - [ ] Tuples and operations
+  - [ ] Common tuple methods
+  - [ ] Loop fundamentals
+  - [ ] Ranges in loops
+  - [ ] Enumerate and zip functions
+  - [ ] List comprehensions and functions
+  - [ ] Lambda functions
+- [ ] Dictionaries and sets
+  - [ ] Dictionaries and sets 
+    - [ ] Loop over a dictionary 
+    - [ ] Sets 
+  - [ ] Python standard library and importing module
+- [ ] Error handling
+  - [ ] Error messages 
+  - [ ] Debugging techniques 
+  - [ ] Exception handling
+  - [ ] Raise statement 
+- [ ] Classes and objects
+  - [ ] How classes differ from objects
+  - [ ] Methods and attributes
+  - [ ] Special methods 
+  - [ ] Object attributes dynamically 
+- [ ] Object-Oriented Programming (OOP) 
+  
+
+</details>
+
+<details>
+<summary><strong>Projects/Labs</strong></summary>
+
+- [ ] PIN extractor
+- [ ] Number pattern generator
+- [ ] Medical data validator
+- [ ] Debug an ISBN validator
+- [ ] Musical instrument delivery 
+- [ ] Planet class
+- [ ] Email simulator
+
+**Certification projects**
+- [ ] User configuration manager
+- [ ] Budget app
+
+</details>
 
 ### Advanced
+<details>
+<summary><strong>Core Concepts</strong></summary>
+
 - [ ] Decorators and generators
 - [ ] Context managers
 - [ ] Async/await programming
 - [ ] Testing with pytest
 - [ ] Virtual environments and package management
 
-## Project Structure
+</details>
+
+<details>
+<summary><strong>Projects/Labs</strong></summary>
+
+- [ ] Coming soon...
+
+</details>
+
+---
+
+## Repository Structure
 
 ```
 embrace_the_python/
@@ -118,6 +220,8 @@ The `basics/` directory contains two types of learning files:
 - `learning_python_2.py` - Sessions 3-5: Numbers, conditionals, and functions
 - Complete learning sessions with multiple topics
 - Useful for comprehensive reviews
+
+---
 
 ## How to Run the Code
 
@@ -169,6 +273,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+---
+
 ## Learning Resources
 
 See [RESOURCES.md](RESOURCES.md) for a curated list of learning materials, tutorials, and helpful links.
@@ -176,6 +282,8 @@ See [RESOURCES.md](RESOURCES.md) for a curated list of learning materials, tutor
 ## Project Ideas
 
 Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ideas to practice your Python skills.
+
+---
 
 ## Current Progress
 
@@ -186,31 +294,28 @@ Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ide
 - In Progress: Practice exercises and advanced topics
 - Next Up: Loops, sequences, dictionaries, and error handling
 
+---
+
 ## Certifications & Courses
 
-- [ ] FreeCodeCamp - Scientific Computing with Python
+- [ ] FreeCodeCamp - Python Certification
 - [ ] Additional courses (to be added)
 
-## Connect & Contribute
+---
+
+## Connect
 
 This is a personal learning repository, but feel free to:
 - Suggest improvements or corrections
 - Share learning resources
 - Propose interesting project ideas
 
-## Author
-
-**Ivan Lutso**
-- Learning Python through FreeCodeCamp
-- Building practical skills for software development
-- Documenting the learning journey
+---
 
 ## License
 
 This project is open source and available for educational purposes.
 
 ---
-
-**Note:** This repository is continuously updated as I progress through my Python learning journey. Check back often for new content!
 
 *Happy Coding!*
