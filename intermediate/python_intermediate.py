@@ -197,3 +197,38 @@ print(food[1:3]) # Returns ('Pizza', 'Pasta') - ending index is not included
 # - Tuples are faster and use less memory than lists
 # - Tuples can be used as dictionary keys (lists cannot)
 
+# =============================================================================
+# SECTION 16: TUPLE METHODS
+# =============================================================================
+# Note: Tuples have only 2 methods (count and index) because they're immutable
+
+# count() - counts how many times an item appears in a tuple
+debtors = ('Andrew', 'John', 'Margo', 'John', 'Newton', 'John')
+debtors.count('John') # Returns 3 - 'John' appears three times
+# If no argument is passed to count(), raises TypeError
+
+# index() - finds the first index where an item appears in a tuple
+debtors.index('John') # Returns 1 - first occurrence of 'John' is at index 1
+
+# index() with start parameter: index(value, start)
+debtors.index('John', 3) # Returns 3 - finds 'John' starting from index 3 onwards
+
+# index() with start and stop parameters: index(value, start, stop)
+# debtors.index('Newton', 1, 3) # ValueError: 'Newton' is not in range [1:3)
+
+# =============================================================================
+# SECTION 17: SORTING TUPLES
+# =============================================================================
+
+# sorted() - built-in function that creates a NEW sorted list from a tuple
+# Syntax: sorted(iterable, key=function, reverse=bool)
+sorted(debtors) # Returns ['Andrew', 'John', 'John', 'John', 'Margo', 'Newton']
+# Important: sorted() returns a LIST, not a tuple. Original tuple remains unchanged
+
+# key parameter - allows custom sorting logic
+words = ('go', 'melancholy', 'joy', 'Python', 'I')
+sorted(words, key=len) # Returns ['I', 'go', 'joy', 'Python', 'melancholy'] - sorted by string length
+
+# reverse parameter - sorts in descending order when True
+sorted(words, reverse=True) # Returns ['melancholy', 'joy', 'go', 'Python', 'I'] - reverse alphabetical order
+
