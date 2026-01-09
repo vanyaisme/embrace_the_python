@@ -142,4 +142,58 @@ numbers.reverse() # Now numbers is [1, 2, 3, 4, 5, 6]
 
 # =============================================================================
 
+# =============================================================================
+# SECTION 12: TUPLES - BASICS
+# =============================================================================
+# Tuples are immutable sequences, similar to lists but cannot be modified after creation
+# Used to create ordered sequences of values that shouldn't change
+# Defined using parentheses () instead of square brackets []
+# Key difference from lists: attempting to modify a tuple raises a TypeError
+
+# Creating and accessing tuples
+human = ('Ivan', 25, 'Ukraine') # Creating a tuple with mixed data types
+print(human[0]) # Accessing elements works the same as lists (returns 'Ivan')
+
+# Tuples are immutable - these operations would fail:
+# human[1] = 26 # TypeError: 'tuple' object does not support item assignment
+# human[9] # IndexError: tuple index out of range
+
+# =============================================================================
+# SECTION 13: CONVERTING TO TUPLES
+# =============================================================================
+
+# tuple() constructor - converts iterables to tuples
+developer = 'John Doe'
+tuple(developer) # Returns ('J', 'o', 'h', 'n', ' ', 'D', 'o', 'e') - each character becomes an element
+# The tuple() constructor accepts strings, lists, and other iterables
+
+# =============================================================================
+# SECTION 14: TUPLE OPERATIONS
+# =============================================================================
+
+# Membership testing with tuples (using 'in' keyword)
+programming_languages = ('Python', 'Java', 'C++', 'Python', 'R', 'Brainfuck')
+'Rust' in programming_languages # Returns False
+'Brainfuck' in programming_languages # Returns True
+
+# Tuple unpacking - works the same as with lists
+human_being = ('Miron', 40, 'January 31, 1985', 'Rap artist', 'One album per 4 years')
+name, age, date_of_birth, *features = human_being # *features captures remaining elements as a list
+
+# Tuple slicing - extract a portion of the tuple
+food = ('Burger', 'Pizza', 'Pasta', 'Sweet Potatoes', 'Salad')
+print(food[1:3]) # Returns ('Pizza', 'Pasta') - ending index is not included
+
+# =============================================================================
+# SECTION 15: TUPLES VS LISTS
+# =============================================================================
+
+# Important: Tuples are immutable - you cannot add, remove, or modify elements
+# No methods like append(), remove(), or pop() for tuples
+
+# When to use tuples vs lists?
+# - Dynamic collection (will change)? Use a LIST
+# - Fixed collection (won't change)? Use a TUPLE
+# - Tuples are faster and use less memory than lists
+# - Tuples can be used as dictionary keys (lists cannot)
 
