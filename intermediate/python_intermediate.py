@@ -232,3 +232,58 @@ sorted(words, key=len) # Returns ['I', 'go', 'joy', 'Python', 'melancholy'] - so
 # reverse parameter - sorts in descending order when True
 sorted(words, reverse=True) # Returns ['melancholy', 'joy', 'go', 'Python', 'I'] - reverse alphabetical order
 
+# =============================================================================
+# SECTION 18: LOOPS TYPES
+# =============================================================================
+
+# Two main types of loops in Python: for loops and while loops
+# for loops - iterate over a sequence (like a list, tuple or string)
+fruits = ['Apple', 'Banana', 'Cherry']
+for fruit in fruits:
+    print(fruit) # Prints each fruit in the list
+
+for char in 'Melancholy':
+    print(char) # Prints each character in the string
+
+# nested for loops - loops inside loops
+categories = ['Hip Hop', 'Rock', 'Jazz']
+artists = ['2Pac', 'Nirvana', 'Miles Davis']
+for category in categories:
+    for artist in artists:
+        print(category + ': ' + artist)
+# Prints all combinations of categories and artists
+
+# while loops - repeat block of code as long as a condition is True
+secret_code = 10
+guess = 0
+while guess != secret_code:
+    guess = int(input('Make your guss (1-10): '))
+    if guess < secret_code:
+        print('Too low! Try again.') # As long as guess lower than secret_code # Too low! Try again.
+    elif guess > secret_code:
+        print('Too high! Try again.') # As long as guess higher than secret_code # Too high! Try again.
+
+print('Congratulations! You guessed the secret code.') # When guess equals secret_code # Congratulations! You guessed the secret code.
+
+# break statement - exits the loop immediately
+print('--- Using break statement ---')
+developer_names = ['James', 'John', 'Naomi', 'Hanna']
+for name in developer_names:
+    if name == 'Naomi':
+        print('Found Naomi! Let\'s wrap it up, lads.')
+        break # Exits the loop when 'Naomi' is found
+    print('Current developer: ' + name) # Prints names until 'Naomi' is found
+
+# continue statement - skips the current iteration and moves to the next
+print('--- Using continue statement ---')
+for name in developer_names:
+    if name == 'Naomi':
+        print('Skipping Naomi for now.')
+        continue # Skips the rest of the loop body for 'Naomi'
+    print('Current developer: ' + name) # Prints names except 'Naomi'
+
+# break vs continue:
+# - break: exits the entire loop when condition met
+# - continue: skips current iteration and continues with next one
+# =============================================================================
+
