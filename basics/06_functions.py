@@ -67,6 +67,7 @@ def greet_user(username):
     # Triple quotes allow multi-line documentation
     print("Hello, " + username.title() + "!")
 
+
 # Calling the function with an argument
 username = input("How do you want me to call you? ")
 greet_user(username)  # The value of username is passed to the function
@@ -85,6 +86,7 @@ def calculate_sum(a, b):  # a and b are PARAMETERS
     """Returns the sum of two numbers."""
     return a + b
 
+
 # When calling the function, we pass ARGUMENTS
 result = calculate_sum(5, 3)  # 5 and 3 are ARGUMENTS
 print("Sum:", result)  # Output: Sum: 8
@@ -99,8 +101,10 @@ print("Sum:", result)  # Output: Sum: 8
 def add_numbers(x, y):
     return x + y  # Returns the result - can be stored or used later
 
+
 def display_sum(x, y):
     print(x + y)  # Just prints - result is lost after printing
+
 
 # Using return
 result = add_numbers(10, 5)  # result = 15 (stored in variable)
@@ -113,9 +117,12 @@ value = display_sum(10, 5)   # Prints 15, but value = None
 print("Value:", value)        # Output: Value: None
 
 # If you don't explicitly use return, Python returns None by default
+
+
 def no_return():
     x = 10
     # No return statement
+
 
 result = no_return()
 print(result)  # Output: None
@@ -128,6 +135,7 @@ print(result)  # Output: None
 def calculate_sum_from_input(a, b):
     """Returns the sum of two numbers."""
     return a + b
+
 
 # Get input from user
 user_input = input("Enter two numbers separated by space: ")
@@ -155,6 +163,7 @@ def calculate_area(width, height):
     """Calculates the area of a rectangle."""
     return width * height
 
+
 # Good: descriptive name, clear purpose, returns a value
 area = calculate_area(5, 10)
 print(f"Area: {area} square units")
@@ -173,7 +182,8 @@ print(f"Area: {area} square units")
 # Local Scope — variable declared inside a function or class can only be accessed within that function or class.
 def my_func():
     local_var = "Hey, I'm local!"
-    print(local_var)  
+    print(local_var)
+
 
 my_func()  # This works
 
@@ -187,12 +197,16 @@ def outer_func():
     def inner_func():
         # in_msg = 'How are you?' # If we define variable here, it would be local to inner_func, and not accessible outside.
         print(out_msg)  # Accessing variable from the enclosing function
-    
+
     inner_func()
+
+
 outer_func()  # This works
 
-# Solution to access variable from inner function 
+# Solution to access variable from inner function
 # Initialize in_msg in the outer function, then within inner function, make in_msg nonlocal to modify it.
+
+
 def another_outer_func():
     out_msg = "Hello from another outer function!"
     in_msg = ""
@@ -204,31 +218,39 @@ def another_outer_func():
 
     another_inner_func()
     print(in_msg)  # Now in_msg is accessible here because we declared it as nonlocal
+
+
 another_outer_func()  # This works
 
 # Global Scope — variables declared outside any function or class and can be accessed from anywhere in the script.
 global_var = "I'm a global variable!"
 
+
 def access_global():
     print(global_var)  # Accessing global variable
+
+
 access_global()  # This works
 print(global_var)  # This also works
 
 # Using the global keyword to modify a global variable inside a function
-global_var_2 = 11 # Global variable
+global_var_2 = 11  # Global variable
+
 
 def modify_global():
-    global global_var_2 # Allows modification of the global variable
-    global_var_2 += 9 # Modify the global variable
+    global global_var_2  # Allows modification of the global variable
+    global_var_2 += 9  # Modify the global variable
 
-    global local_var_2 # Declare local_var_2 as global
+    global local_var_2  # Declare local_var_2 as global
     local_var_2 = "Local variable made global"
     print("Inside function, modified global_var_2:", global_var_2)
     print("Inside function, local_var_2:", local_var_2)
 
+
 modify_global()  # This works
 print("Outside function, global_var_2:", global_var_2)  # The change
-print("Outside function, local_var_2:", local_var_2)  # This works because local_var_2 is global now
+# This works because local_var_2 is global now
+print("Outside function, local_var_2:", local_var_2)
 
 # Built-in Scope — names that are pre-defined in Python and can be accessed from anywhere
 print(str(123))  # Using built-in str() function to convert integer to string

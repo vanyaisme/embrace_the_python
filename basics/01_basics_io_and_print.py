@@ -23,8 +23,9 @@ print("Hello World!")  # Output: Hello World!
 
 # Using the sep parameter to customize the separator between items
 # Default separator is a space (' '), but you can change it to any string
-print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ')
-# Output: My favorite drinks are > red bull > Fritz Cola > and > coffee.
+print('My favourite drinks are', 'red bull',
+      'Fritz Cola', 'and', 'coffee.', sep=' > ')
+# Output: My favourite drinks are > red bull > Fritz Cola > and > coffee.
 
 
 print("\n" + "="*60)

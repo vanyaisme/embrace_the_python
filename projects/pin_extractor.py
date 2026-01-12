@@ -12,6 +12,7 @@ def pin_extractor(poems):
         secret_codes.append(secret_code)
     return secret_codes
 
+
 poem = """Stars and the moon
 shine in the sky
 white and

@@ -40,7 +40,8 @@ my_float_var = 10.5
 print(type(my_float_var))  # <class 'float'> - Decimal numbers
 
 my_complex_var = 3 + 4j
-print(type(my_complex_var))  # <class 'complex'> - Complex numbers with real and imaginary parts
+# <class 'complex'> - Complex numbers with real and imaginary parts
+print(type(my_complex_var))
 
 # TEXT TYPE
 my_string_var = "Hello"
@@ -76,7 +77,8 @@ my_bytes_var = b'example'
 print(type(my_bytes_var))  # <class 'bytes'> - Immutable sequence of bytes
 
 my_bytearray_var = bytearray(b'example')
-print(type(my_bytearray_var))  # <class 'bytearray'> - Mutable sequence of bytes
+# <class 'bytearray'> - Mutable sequence of bytes
+print(type(my_bytearray_var))
 
 # NONE TYPE
 my_none_var = None
@@ -91,7 +93,8 @@ print(type(my_none_var))  # <class 'NoneType'> - Represents absence of value
 # Syntax: isinstance(object, type)
 
 print(isinstance(age, int))           # True - age is an integer
-print(isinstance('Cute', int))        # False - 'Cute' is a string, not an integer
+# False - 'Cute' is a string, not an integer
+print(isinstance('Cute', int))
 print(isinstance(height, float))      # True - height is a float
 print(isinstance(is_student, bool))   # True - is_student is a boolean
 
@@ -104,7 +107,8 @@ print(isinstance(is_student, bool))   # True - is_student is a boolean
 
 test_str = 'Hi there!'
 print('Hi' in test_str)       # True - 'Hi' is present in the string
-print('hello' in test_str)    # False - 'hello' is not present (case-sensitive!)
+# False - 'hello' is not present (case-sensitive!)
+print('hello' in test_str)
 print('there' in test_str)    # True - 'there' is present
 
 

@@ -39,8 +39,9 @@ greet("Alice")  # Output: Hello, Alice!
 
 # Using the sep parameter to customize the separator between items
 # Default separator is a space (' '), but you can change it to any string
-print('My favorite drinks are', 'red bull', 'Fritz Cola', 'and', 'coffee.', sep=' > ')
-# Output: My favorite drinks are > red bull > Fritz Cola > and > coffee.
+print('My favourite drinks are', 'red bull',
+      'Fritz Cola', 'and', 'coffee.', sep=' > ')
+# Output: My favourite drinks are > red bull > Fritz Cola > and > coffee.
 
 
 # -----------------------------------------------------------------------------
@@ -75,7 +76,8 @@ my_float_var = 10.5
 print(type(my_float_var))  # <class 'float'> - Decimal numbers
 
 my_complex_var = 3 + 4j
-print(type(my_complex_var))  # <class 'complex'> - Complex numbers with real and imaginary parts
+# <class 'complex'> - Complex numbers with real and imaginary parts
+print(type(my_complex_var))
 
 # TEXT TYPE
 my_string_var = "Hello"
@@ -111,7 +113,8 @@ my_bytes_var = b'example'
 print(type(my_bytes_var))  # <class 'bytes'> - Immutable sequence of bytes
 
 my_bytearray_var = bytearray(b'example')
-print(type(my_bytearray_var))  # <class 'bytearray'> - Mutable sequence of bytes
+# <class 'bytearray'> - Mutable sequence of bytes
+print(type(my_bytearray_var))
 
 # NONE TYPE
 my_none_var = None
@@ -126,7 +129,8 @@ print(type(my_none_var))  # <class 'NoneType'> - Represents absence of value
 # Syntax: isinstance(object, type)
 
 print(isinstance(age, int))           # True - age is an integer
-print(isinstance('Cute', int))        # False - 'Cute' is a string, not an integer
+# False - 'Cute' is a string, not an integer
+print(isinstance('Cute', int))
 print(isinstance(height, float))      # True - height is a float
 print(isinstance(is_student, bool))   # True - is_student is a boolean
 
@@ -139,7 +143,8 @@ print(isinstance(is_student, bool))   # True - is_student is a boolean
 
 test_str = 'Hi there!'
 print('Hi' in test_str)       # True - 'Hi' is present in the string
-print('hello' in test_str)    # False - 'hello' is not present (case-sensitive!)
+# False - 'hello' is not present (case-sensitive!)
+print('hello' in test_str)
 print('there' in test_str)    # True - 'there' is present
 
 
@@ -161,11 +166,11 @@ print(my_str)  # Output: IF PYTHON WAS AN AI, BUBBLE WOULD NEVER HAVE EXISTED.
 print(my_str[3:9])  # Output: PYTHON
 
 # Replace substring with another
-print(my_str.replace('PYTHON', 'JavaScript'))  
+print(my_str.replace('PYTHON', 'JavaScript'))
 # Output: IF JavaScript WAS AN AI, BUBBLE WOULD NEVER HAVE EXISTED.
 
 # Split string into a list at comma delimiter
-print(my_str.split(','))  
+print(my_str.split(','))
 # Output: ['IF PYTHON WAS AN AI', ' BUBBLE WOULD NEVER HAVE EXISTED.']
 
 
@@ -180,7 +185,8 @@ my_str_final = ", matter what inside your code."
 
 # Concatenate two strings
 concat = my_str_draft + my_str_final
-print(concat)  # Output: No matter where you live, matter what inside your code.
+# Output: No matter where you live, matter what inside your code.
+print(concat)
 
 # Repeat a string multiple times using *
 print((concat + " ") * 3)  # Repeats the string 3 times with a space after each
@@ -209,7 +215,8 @@ print(name_str + str(age_integer))  # Output: Alex30
 
 # Method 2: Using the += operator for concatenation
 name_and_age = name_str
-name_and_age += str(age_integer)  # Same as: name_and_age = name_and_age + str(age_integer)
+# Same as: name_and_age = name_and_age + str(age_integer)
+name_and_age += str(age_integer)
 print(name_and_age)  # Output: Alex30
 
 
@@ -227,7 +234,8 @@ print(greeting)  # Output: Hello, my name is Alex and I am 30 years old.
 # Embedding expressions directly in f-strings (no need for str() conversion!)
 num1 = 20
 num2 = 8
-print(f'The sum of {num1} and {num2} is {num1 + num2}.')  # Output: The sum of 20 and 8 is 28.
+# Output: The sum of 20 and 8 is 28.
+print(f'The sum of {num1} and {num2} is {num1 + num2}.')
 
 
 # -----------------------------------------------------------------------------
@@ -247,13 +255,15 @@ print(sample_str[4:25])  # Output: Earth orbits the Sun
 
 # Omitting start or end indices
 print(sample_str[:10])   # From start to index 9: The Earth
-print(sample_str[11:])   # From index 11 to end: orbits the Sun in an elliptical path.
+# From index 11 to end: orbits the Sun in an elliptical path.
+print(sample_str[11:])
 
 # Using step to skip characters
 print(sample_str[0:25:2])  # Every 2nd character from 0 to 24: TeErhobt h u
 
 # Negative step to reverse the string
-print(sample_str[::-1])  # Output: .htap lacitpille na ni nuS eht stibro htraE ehT
+# Output: .htap lacitpille na ni nuS eht stibro htraE ehT
+print(sample_str[::-1])
 
 
 # -----------------------------------------------------------------------------
@@ -265,9 +275,12 @@ str_case = "where is the treasure located?"
 
 print(str_case.upper())      # ALL UPPERCASE: WHERE IS THE TREASURE LOCATED?
 print(str_case.lower())      # all lowercase: where is the treasure located?
-print(str_case.capitalize()) # First char uppercase, rest lowercase: Where is the treasure located?
-print(str_case.title())      # First Char Of Each Word Capitalized: Where Is The Treasure Located?
-print(str_case.swapcase())   # Swap case of each character: WHERE IS THE TREASURE LOCATED?
+# First char uppercase, rest lowercase: Where is the treasure located?
+print(str_case.capitalize())
+# First Char Of Each Word Capitalized: Where Is The Treasure Located?
+print(str_case.title())
+# Swap case of each character: WHERE IS THE TREASURE LOCATED?
+print(str_case.swapcase())
 
 
 # -----------------------------------------------------------------------------
@@ -286,11 +299,14 @@ print(search_str.endswith('treasure'))   # Output: False
 # Find the starting index of a substring
 # Returns -1 if substring is not found
 treasure_index = search_str.find('treasure')
-print(f'Index of "treasure": {treasure_index}')  # Output: Index of "treasure": 13
+# Output: Index of "treasure": 13
+print(f'Index of "treasure": {treasure_index}')
 
 # Count occurrences of a substring
-print(f'Letter "e" appears {search_str.count("e")} times')     # Output: Letter "e" appears 4 times
-print(f'Word "the" appears {search_str.count("the")} times')   # Output: Word "the" appears 1 times
+# Output: Letter "e" appears 4 times
+print(f'Letter "e" appears {search_str.count("e")} times')
+# Output: Word "the" appears 1 times
+print(f'Word "the" appears {search_str.count("the")} times')
 
 
 # -----------------------------------------------------------------------------
@@ -311,7 +327,8 @@ print(validation_str.islower())   # True (all letters are lowercase)
 
 # Example with alphanumeric string
 alpha_str = "Python3"
-print(f'"{alpha_str}" is alphanumeric: {alpha_str.isalnum()}')  # True (letters + digits, no spaces)
+# True (letters + digits, no spaces)
+print(f'"{alpha_str}" is alphanumeric: {alpha_str.isalnum()}')
 
 
 # -----------------------------------------------------------------------------
@@ -326,13 +343,16 @@ print(str_methods.lower())   # if i was a mushroom, life would be easier.
 
 # Remove leading/trailing whitespace
 str_with_spaces = "   hello world   "
-print(str_with_spaces.strip())  # Output: hello world (no leading/trailing spaces)
+# Output: hello world (no leading/trailing spaces)
+print(str_with_spaces.strip())
 
 # Replace substring with another
-print(str_methods.replace('mushroom', 'scientist'))  # If I was a scientist, life would be easier.
+# If I was a scientist, life would be easier.
+print(str_methods.replace('mushroom', 'scientist'))
 
 # Split string into a list at specified delimiter
-print(str_methods.split(','))  # Output: ['If I was a mushroom', ' life would be easier.']
+# Output: ['If I was a mushroom', ' life would be easier.']
+print(str_methods.split(','))
 
 # Join list elements into a single string with a separator
 my_list = ['life', 'is', 'beautiful']
@@ -343,5 +363,3 @@ print(' '.join(my_list))  # Output: life is beautiful
 print("\n" + "="*60)
 print("END OF SESSION 1")
 print("="*60 + "\n")
-
-

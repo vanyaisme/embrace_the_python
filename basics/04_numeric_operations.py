@@ -29,7 +29,8 @@ print(type(my_int_2))  # <class 'int'>
 print('Addition:', my_int + my_int_2)        # Output: 1
 print('Subtraction:', my_int - my_int_2)     # Output: 7
 print('Multiplication:', my_int * my_int_2)  # Output: -12
-print('Division:', my_int / my_int_2)        # Output: -1.3333... (always returns float)
+# Output: -1.3333... (always returns float)
+print('Division:', my_int / my_int_2)
 
 
 # -----------------------------------------------------------------------------
@@ -42,7 +43,7 @@ my_float = 4.23
 my_float_2 = -3.14
 
 print(type(my_float))   # <class 'float'>
-print(type(my_float_2)) # <class 'float'>
+print(type(my_float_2))  # <class 'float'>
 
 print('Addition:', my_float + my_float_2)        # Output: 1.09
 print('Subtraction:', my_float - my_float_2)     # Output: 7.37
@@ -57,7 +58,8 @@ print('Division:', my_float / my_float_2)        # Output: -1.347133757
 # Python automatically converts the result to a float (type coercion).
 
 sum_mixed = my_int + my_float
-print(type(sum_mixed))      # <class 'float'> - result is automatically converted to float
+# <class 'float'> - result is automatically converted to float
+print(type(sum_mixed))
 print('Mixed Addition:', sum_mixed)  # Output: 8.23
 
 
@@ -101,7 +103,8 @@ print(int(-3.99))  # Output: -3 - truncates toward zero
 # ROUNDING
 print(round(3.141))       # Output: 3 - rounds to nearest integer
 print(round(3.147, 2))    # Output: 3.15 - rounds to 2 decimal places
-print(round(2.5))         # Output: 2 - rounds to nearest even number (banker's rounding)
+# Output: 2 - rounds to nearest even number (banker's rounding)
+print(round(2.5))
 print(round(3.5))         # Output: 4
 
 # ABSOLUTE VALUE
