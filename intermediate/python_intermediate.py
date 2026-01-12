@@ -330,5 +330,40 @@ print(even_numbers) # Prints [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 odd_numbers = tuple(range(1, 20, 2)) # Creates a tuple of odd numbers from 1 to 19
 print(odd_numbers) # Prints (1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
 
+# =============================================================================
+# SECTION 20: ENUMERATE AND ZIP FUNCTIONS
+# =============================================================================
+
+languages = ['Spanish', 'Dutch', 'English', 'Portugese', 'Chinese']
+index = 0
+
+for language in languages: 
+    print(f'#{index} and language {language}')
+    index += 1
+
+# Easier way to do this using enumerate() function
+# enumerate() keeps track of the index for an iterable and return an enumerate object
+
+developers = ['Asia', 'Gronzo', 'Kitana', 'John', 'Niko']
+print(list(enumerate(developers))) #[(0), 'Asia', (1, 'Gronzo'), (2, 'Kitana'), ... )]
+
+# Each entry in the enumerate object (now a list) is a tuple containing a count.
+
+languages = ['Spanish', 'Dutch', 'English', 'Portuguese', 'Chinese']
+
+for index, language in enumerate(languages): 
+    print(f'#{index} and language {language}') # #0 Spanish \n #1 Dutch \n #2 English \n #3 Portuguese
+# this approach removes the need for manually creating and updating an index variable
+
+# enumerate() function also accepts an optional start argument
+# if this argument is ommitted, the count will begin at 0 by default
+
+fruits = ['Kiwi', 'Orange', 'Apple', 'Banana']
+
+for index, fruit in enumerate(fruits, 1):
+    print(f'#{index} {fruit}') # #1 Kiwi \n #2 Orange \n #3 Apple \n #4 Banana
+
+
+
 
 
