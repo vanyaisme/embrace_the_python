@@ -275,11 +275,11 @@ pip install -r requirements.txt
 
 ## Learning Resources
 
-See [RESOURCES.md](RESOURCES.md) for a curated list of learning materials, tutorials, and helpful links.
+See [RESOURCES.md](RESOURCES.md) for a curated list of learning materials, tutorials, and useful links.
 
 ## Project Ideas
 
-Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ideas to practice your Python skills.
+Check out [PROJECT_IDEAS.md](PROJECT_IDEAS.md) for beginner-friendly project ideas to practice Python skills.
 
 ---
 
