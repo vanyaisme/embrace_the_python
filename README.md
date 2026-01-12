@@ -181,24 +181,21 @@ This repository serves as my personal learning log and practice space for Python
 ├── PROJECT_IDEAS.md                     # Project ideas for practice
 ├── README.md                            # This file
 ├── RESOURCES.md                         # Learning resources and links
-├── basics                               # Fundamental Python concepts
+├── basics                               # Fundamental Python concepts (Complete)
+│   ├── 0_learning_python.py             # Python basics p.1 (Sessions 1-2)
+│   ├── 0_learning_python_2.py           # Basics in-depth p.2 (Sessions 3-5)
 │   ├── 01_basics_io_and_print.py        # Basic I/O and print operations
 │   ├── 02_variables_and_data_types.py   # Variables and type system
 │   ├── 03_strings_and_formatting.py     # Complete string operations
 │   ├── 04_numeric_operations.py         # Numbers and arithmetic operators
 │   ├── 05_conditionals.py               # Booleans and control flow
 │   ├── 06_functions.py                  # Functions and variable scope
-│   ├── BASICS_REVIEW.md                 # Overview of all concepts from Python Basics
-│   ├── functions.py                     #
-│   ├── learning_python.py               # Python basics p.1 (Sessions 1-2)
-│   ├── learning_python_2.py             # Basics in-depth p.2 (Sessions 3-5)
-│   ├── strings_and_formatting.py        #
-│   └── variables_and_types.py           #
+│   └── BASICS_REVIEW.md                 # Overview of all concepts from Python Basics
 ├── exercises                            # Practice exercises
 │   └── practice_exercises.py            # Beginner exercises with solutions
-├── intermediate                         # Intermediate concepts (coming soon)
-│   ├── python_intermediate.py           # 
-│   └── python_intermediate_2.py         #
+├── intermediate                         # Intermediate concepts 
+│   ├── python_intermediate.py           # Loops and Sequences
+│   └── python_intermediate_2.py         # Dictionaries and Sets (Coming Soon)
 ├── projects                             # Completed labs/workshops
 │   ├── RPG_character.py                 #
 │   ├── caesar_cypher.py                 #
