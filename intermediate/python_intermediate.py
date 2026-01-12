@@ -363,6 +363,21 @@ fruits = ['Kiwi', 'Orange', 'Apple', 'Banana']
 for index, fruit in enumerate(fruits, 1):
     print(f'#{index} {fruit}') # #1 Kiwi \n #2 Orange \n #3 Apple \n #4 Banana
 
+# zip() function combines lists into pairs of elements and returns an iterator of tuples 
+
+friends = ['Lot', 'Sara', 'Hanka', 'Alex', 'Gaia']
+ids = [1, 2, 3, 4, 5]
+
+list(zip(developers, ids)) # [('Lot', 1), ('Sara', 2), ('Hanka', 3), ('Alex', 4), ...]
+
+# zip() combines the two list into pairs of elements and returns and iterator of tuples
+# for loop then unpacks each tuple into name and id
+developers = ['Naomi', 'Dario', 'Jessica', 'Tom']
+ids = [1, 2, 3, 4]
+
+for name, id in zip(developers, ids):
+    print(f'Name: {name}') # Name: Naomi...
+    print(f'ID: {id}') # ID: 1...
 
 
 
