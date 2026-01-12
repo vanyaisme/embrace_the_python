@@ -299,5 +299,36 @@ for word in words:                                          # iterating through 
         print(f"'{word}' has no vowels.")                  # print that the word has no vowels
 
 # =============================================================================
+# SECTION 19: RANGE() FUNCTION
+# =============================================================================
+# range() - generates a sequence of integers, commonly used in for loops
+# Syntax: range(start, stop, step)
+# - start: starting integer (inclusive, default is 0)
+# - stop: ending integer (exclusive)
+# - step: increment between each integer (default is 1)
+
+for num in range(5): # Generates numbers 0 to 4
+    print(num) # Prints 0, 1, 2, 3, 4
+
+for num in range(1, 5): # Generates numbers 1 to 4
+    print(num) # Prints 1, 2, 3, 4
+
+for num in range(2, 11, 2): # Generates even numbers from 2 to 10
+    print(num) # Prints 2, 4, 6, 8, 10
+
+# range() has only one required argument (stop); start and step are optional
+# if you don't provide any arguments, it raises a TypeError
+# if you try to pass float values, it raises a TypeError as well
+
+# if you want decrementing sequence, use a negative step
+for num in range(40, -5, -5): # Generates numbers from 40 down to 0, decrementing by 5
+    print(num) # Prints 40, 35, 30, 25, 20, 15, 10, 5, 0
+
+# you can convert range objects to lists or tuples using list() or tuple() constructors
+even_numbers = list(range(0, 21, 2)) # Creates a list of even numbers from 0 to 20
+print(even_numbers) # Prints [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+odd_numbers = tuple(range(1, 20, 2)) # Creates a tuple of odd numbers from 1 to 19
+print(odd_numbers) # Prints (1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
+
 
 
