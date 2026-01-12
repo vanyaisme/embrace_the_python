@@ -1,11 +1,11 @@
 # Learning Python using FreeCodeCamp curriculum
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.14.2-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
 [![FreeCodeCamp](https://img.shields.io/badge/Course-FreeCodeCamp-purple.svg)](https://www.freecodecamp.org/)
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)](https://github.com/vanyaisme/embrace_the_python)
 
-A comprehensive repository documenting my journey learning Python through FreeCodeCamp and various programming exercises.
+A repository where I'm documenting my journey learning Python through FreeCodeCamp curriculum.
 
 ---
 
@@ -106,16 +106,16 @@ This repository serves as my personal learning log and practice space for Python
 <details>
 <summary><strong>Core Concepts</strong></summary>
 
-- [ ] Loops and sequences
-  - [ ] Lists and operations
-  - [ ] Common list methods
-  - [ ] Tuples and operations
-  - [ ] Common tuple methods
-  - [ ] Loop fundamentals
-  - [ ] Ranges in loops
-  - [ ] Enumerate and zip functions
-  - [ ] List comprehensions and functions
-  - [ ] Lambda functions
+- [x] Loops and sequences
+  - [x] Lists and operations
+  - [x] Common list methods
+  - [x] Tuples and operations
+  - [x] Common tuple methods
+  - [x] Loop fundamentals
+  - [x] Ranges in loops
+  - [x] Enumerate and zip functions
+  - [x] List comprehensions and functions
+  - [x] Lambda functions
 - [ ] Dictionaries and sets
   - [ ] Dictionaries and sets 
     - [ ] Loop over a dictionary 
@@ -139,7 +139,7 @@ This repository serves as my personal learning log and practice space for Python
 <details>
 <summary><strong>Projects/Labs</strong></summary>
 
-- [ ] PIN extractor
+- [x] PIN extractor
 - [ ] Number pattern generator
 - [ ] Medical data validator
 - [ ] Debug an ISBN validator
@@ -177,32 +177,33 @@ This repository serves as my personal learning log and practice space for Python
 ## Repository Structure
 
 ```
-embrace_the_python/
-│
-├── .github/                         # GitHub configuration files
-│
-├── basics/                          # Fundamental Python concepts
-│   ├── 01_basics_io_and_print.py    # Basic I/O and print operations
-│   ├── 02_variables_and_data_types.py # Variables and type system
-│   ├── 03_strings_and_formatting.py # Complete string operations
-│   ├── 04_numeric_operations.py     # Numbers and arithmetic operators
-│   ├── 05_conditionals.py           # Booleans and control flow
-│   ├── 06_functions.py              # Functions and variable scope
-│   ├── learning_python.py           # Comprehensive Python basics (Sessions 1-2)
-│   └── learning_python_2.py         # Advanced topics (Sessions 3-5)
-│
-├── intermediate/                    # Intermediate concepts (coming soon)
-│
-├── projects/                        # Completed projects (coming soon)
-│
-├── exercises/                       # Practice exercises
-│   └── practice_exercises.py        # Beginner exercises with solutions
-│
-├── .gitignore                       # Git ignore configuration
-├── README.md                        # This file
-├── RESOURCES.md                     # Learning resources and links
-├── PROJECT_IDEAS.md                 # Project ideas for practice
-└── requirements.txt                 # Python package dependencies
+[embrace_the_python]
+├── PROJECT_IDEAS.md                     # Project ideas for practice
+├── README.md                            # This file
+├── RESOURCES.md                         # Learning resources and links
+├── basics                               # Fundamental Python concepts
+│   ├── 01_basics_io_and_print.py        # Basic I/O and print operations
+│   ├── 02_variables_and_data_types.py   # Variables and type system
+│   ├── 03_strings_and_formatting.py     # Complete string operations
+│   ├── 04_numeric_operations.py         # Numbers and arithmetic operators
+│   ├── 05_conditionals.py               # Booleans and control flow
+│   ├── 06_functions.py                  # Functions and variable scope
+│   ├── BASICS_REVIEW.md                 # Overview of all concepts from Python Basics
+│   ├── functions.py                     #
+│   ├── learning_python.py               # Python basics p.1 (Sessions 1-2)
+│   ├── learning_python_2.py             # Basics in-depth p.2 (Sessions 3-5)
+│   ├── strings_and_formatting.py        #
+│   └── variables_and_types.py           #
+├── exercises                            # Practice exercises
+│   └── practice_exercises.py            # Beginner exercises with solutions
+├── intermediate                         # Intermediate concepts (coming soon)
+│   ├── python_intermediate.py           # 
+│   └── python_intermediate_2.py         #
+├── projects                             # Completed labs/workshops
+│   ├── RPG_character.py                 #
+│   ├── caesar_cypher.py                 #
+│   └── pin_extractor.py                 #
+└── requirements.txt                     # Python package dependencies
 ```
 
 ### About the Module Structure
