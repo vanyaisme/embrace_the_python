@@ -287,3 +287,17 @@ for name in developer_names:
 # - continue: skips current iteration and continues with next one
 # =============================================================================
 
+# both for and while loops can be combined with else clause, which executes when the loop is not terminated by a break statement
+print('--- Using else with loops ---')
+words = ['sky', 'appple', 'rhytm', 'fly', 'orange']             # creating a list of 5 words
+for word in words:                                          # iterating through each word in the list, one by one
+    for letter in word:                                     # iterating through each letter in the current word 'sky' = 's', 'k', 'y'
+        if letter.lower() in 'aeiou':                         # checking if the current letter is a vowel (a, e, i, o, u)
+            print(f"'{word}' contains a vowel: '{letter}'") # if a vowel is found, print the word and the vowel
+            break                                        # exit the inner loop (stop checking letters for this word) and move to the next word
+    else:                                                 # if we checked ALL letters in the word and found NO vowels
+        print(f"'{word}' has no vowels.")                  # print that the word has no vowels
+
+# =============================================================================
+
+
